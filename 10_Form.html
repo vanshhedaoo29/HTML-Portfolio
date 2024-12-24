@@ -1,1 +1,25 @@
-<!--  -->
+<!-- The <form> element is used to create an HTML form for user input. It can contain
+various form elements like text fields, checkboxes, radio buttons, etc., and has
+attributes for defining the form's action (where the form data is sent) and method
+(how the form data is sent). -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="/submit-form" method="post">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" /><br /><br />
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" /><br />
+      <br />
+
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
