@@ -1,0 +1,26 @@
+<!-- An image map is a way of defining clickable areas on an image that link to
+different destinations. It is created using the <map> element to define the map and
+<area> elements to define the clickable area -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Map and Area</title>
+    <link rel="website icon" href="moon1.png" />
+  </head>
+  <body>
+    <img src="moon1.png" alt="Planets" usemap="#planetmap" />
+    <map name="planetmap">
+      <area shape="rect" coords="0,0,82,126" href="3_Tags.html" al t="Sun" />
+      <area
+        shape="circle"
+        coords="90,58,3"
+        href="5_Navigation.html"
+        alt="Mercury"
+      />
+      <area shape="circle" coords="124,58,8" href="10_Form.html" alt="Venus" />
+    </map>
+  </body>
+</html>
